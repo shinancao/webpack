@@ -1,3 +1,18 @@
+This template is forked from [vuejs-templates/webpack](https://github.com/vuejs-templates/webpack). I add some other tools which will be used most often in my projects, they includes:
+
+
+1. [axios](https://github.com/axios/axios): it's used to request HTTP API.
+2. [vuex](https://vuex.vuejs.org/): it's a state management pattern + library for Vue.js applications.
+3. [element-ui](https://element.eleme.cn/#/zh-CN/component/installation): it provides many components to build our App UI.
+4. [express-proxy-mock](https://github.com/shunseven/express-proxy-mock): it can help us config HTTP proxy and set API mock data in a single page, After you start your project, visite localhost:8080/config (8080 is your project port), you'll see the page.
+
+
+Init a Vue.js project with this template and vue-cli 2.x:
+
+```
+$ vue init shinancao/webpack my-project
+```
+
 # vue-webpack-boilerplate
 
 > A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.
