@@ -1,8 +1,34 @@
+This template is forked from [vuejs-templates/webpack](https://github.com/vuejs-templates/webpack). I add some other tools which will be used most often in my projects, they includes:
+
+
+1. [axios](https://github.com/axios/axios): it's used to request HTTP API.
+2. [vuex](https://vuex.vuejs.org/): it's a state management pattern + library for Vue.js applications.
+3. [element-ui](https://element.eleme.cn/#/zh-CN/component/installation): it provides many components to build our App UI.
+4. [express-proxy-mock](https://github.com/shunseven/express-proxy-mock): it can help us config HTTP proxy and set API mock data in a single page, After you start your project, visite localhost:8080/config (8080 is your project port), you'll see the page.
+
+
+Init a Vue.js project with this template and vue-cli 2.x:
+
+```
+$ vue init shinancao/webpack my-project
+```
+
 # vue-webpack-boilerplate
 
 > A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.
 
 > This template is Vue 2.0 compatible. For Vue 1.x use this command: `vue init webpack#1.0 my-project`
+
+
+# Vue-cli 3 is here, so this template is now considered deprecated.
+
+This template was the main template for vue-cli verison 2.*.
+
+Now that we have released a [stable version of vue-cli 3](https://cli.vuejs.org), which incorporates all features that this template offers (and much more), we think that this template doesn't have any significant use for the future, so we won't put much resource in developing it further.
+
+We will try and fix major issues should they arise, but not much more.
+
+Feel free to fork this template if you want to keep it alive.
 
 ## Documentation
 
